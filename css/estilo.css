@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />);
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:beige;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+
+.calculadora h1{
+    font-size: 3rem;
+    font-family: 'Tourney', cursive;
+    color:#fff;
+    margin: 1rem;
+    background-color:rgb(69, 69, 136);
+}
+
+
+.calculadora{
+    background-color: #363636;
+    border: 2px solid black;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+   
+}
+
+button{
+    width: 4rem;
+    height: 3rem;
+    margin:0.1rem;
+    background-color: orange;
+    font-size: 1.5rem;
+}
+
+
+button:hover{
+    background-color:rgb(69, 69, 136);
+    transition: background-color  1s;
+    color: #fff;
+}
+ .visor{
+     width: 50%;
+    height: 2rem;
+    margin:10px auto;
+    text-align: end;
+    font-size: 2rem;
+}
+
+.calculadora .resultado{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+
+}
+
+
+
